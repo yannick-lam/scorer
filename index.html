@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="section">
+      <div class="team">
+        <h3>HOME</h3>
+      </div>
+      <div id="home-score-el" class="score">0
+      </div>
+      <div class="points">
+        <button id="plus1" onclick="oneHome()">+1</button>
+        <button id="plus2" onclick="twoHome()">+2</button>
+        <button id="plus3" onclick="threeHome()">+3</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="team">
+        <h3>GUEST</h3>
+      </div>
+      <div id="guest-score-el" class="score">0
+      </div>
+      <div class="points">
+        <button id="plus1" onclick="oneGuest()">+1</button>
+        <button id="plus2" onclick="twoGuest()">+2</button>
+        <button id="plus3" onclick="threeGuest()">+3</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

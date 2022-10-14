@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+html {
+    background-color: #252525;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 25%;
+    min-height: 35vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(15, 35, 75);
+    border: 0.2rem solid white;
+    border-radius: 0.6rem;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 35%;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 65%;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+.section {
+    background-color: transparent;
+}
+
+.team {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.8rem;
+    background-color: black;
+    color: rgb(255, 30, 80);
+    text-align: right;
+    padding-top: 0.8rem;
+    padding-right: 1.1rem;
+    margin: 0.3rem auto;
+}
+
+.points {
+    margin: 0.6rem auto;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    width: 1.8rem;
+    height: 1.8rem;
+    border: 1pt solid rgb(210, 210, 230);
+    border-radius: 0.3rem;
+    background-color: transparent;
+    color: rgb(210, 210, 230);
+    margin: 0.6rem 0.2rem;
+    padding-top: .2rem;
+    padding-left: 0.3rem;
+    cursor: pointer;
+}
